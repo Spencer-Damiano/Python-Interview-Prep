@@ -1,0 +1,3 @@
+# Code Formatting
+
+When thinking about where I wanted to get started on this prep I was thinking on some suggestions that I should make my code more readable. I decided that I would start there as I had never really followed a given standard or guide. When looking things up I decided that I would just trust a extension to make my code more readable and return to this if I had more time. I've gone with the `Ruff` extension in VS Code as I wanted the formatting and importing help. I might come back to this if I have the time.

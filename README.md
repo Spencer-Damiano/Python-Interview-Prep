@@ -8,8 +8,8 @@ Personal practice repository for software engineering interview preparation, foc
 - Document learning process and problem-solving approaches
 
 ## Structure
-- `/solutions` - Organized by problem type with commented code
-- `/notes` - Personal reference notes - work in progress
+- `/solutions` - Organized by interview problem type with commented code
+- `/notes` - Personal reference notes - building my own documentation as a way to fresh.
 - `/progress.md` - Tracking log
 
 ## Status
