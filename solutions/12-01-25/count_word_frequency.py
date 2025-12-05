@@ -36,8 +36,15 @@ def count_words(words):
     Returns:
         Dict mapping each word to its count
     """
-    # Your code here
-    pass
+    word_count = {}
+
+    for word in words:
+        if word not in word_count:
+            word_count[word] = 1
+        elif word in word_count:
+            word_count[word] += 1
+    
+    return word_count
 
 
 # Test cases (don't look until you've attempted!)
@@ -54,14 +61,14 @@ if __name__ == "__main__":
     # Test 4: Single word
     test4 = ["solo"]
     
-    print("Test 1:", count_words(test1))
+    print("Test 1:", count_words(test1)=={"apple": 3, "banana": 2, "cherry": 1})
     # Expected: {"apple": 3, "banana": 2, "cherry": 1}
     
-    print("Test 2:", count_words(test2))
+    print("Test 2:", count_words(test2)=={"hello": 1, "world": 1})
     # Expected: {"hello": 1, "world": 1}
     
-    print("Test 3:", count_words(test3))
+    print("Test 3:", count_words(test3)=={"cat": 4})
     # Expected: {"cat": 4}
     
-    print("Test 4:", count_words(test4))
+    print("Test 4:", count_words(test4)=={"solo": 1})
     # Expected: {"solo": 1}
