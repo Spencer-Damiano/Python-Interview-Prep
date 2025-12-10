@@ -7,6 +7,12 @@ These notes are **my personal cheat sheets** - written in my own words, organize
 **Primary purpose:** Make my life easier when coding
 **Secondary benefit:** Shows employers I learn from experience
 
+## When to Create Note
+
+Create a note when:
+- I can create a note based on learning a topic I know I will encounter
+- Start to explore a new topic in preparation for practicing with them
+
 ## When to Add to Notes
 
 Add something to notes when:
